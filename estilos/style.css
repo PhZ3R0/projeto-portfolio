@@ -177,6 +177,22 @@ margin: 20px;
   color: var(--destaque-inverso);
 }
 #projetos {
-  padding: 20px;
+  
   margin-bottom: 20px;
+  grid-column: 2;
+  display: flex;
+  flex-flow: column;
+}
+.projetos-item > img {
+  width: 100%;
+}
+.projetos-item > li {
+  list-style-type: disclosure-closed;
+}
+.projetos-item {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  border-left: 5px solid var(--destaque-inverso);
 }
