@@ -77,12 +77,20 @@ section#ficha img {
   margin: auto;
   margin-bottom: 15px;
 }
-section#ficha h1 {
+section h1 {
   color: var(--destaque);
   margin: 15px 0;
   font-size: 1.5em;
-  text-align: left;
-
+  text-align: center;
+}
+section h2 {
+  color: var(--destaque);
+  margin: 15px 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+section#ficha p {
+  text-align: center;
 }
 div#social {
   display: flex;
@@ -98,4 +106,77 @@ div#social a {
 }
 div#social a:hover {
   color: var(--destaque-inverso);
+}
+section#detalhes {
+  grid-column: 2;
+}
+section#detalhes > div#videocontainer {
+}
+section#video {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+div#videocontainer {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+div#videocontainer > iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+section#skills {
+
+}
+div.barra {
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+  background-color: var(--destaque-inverso);
+}
+.item {
+margin: 20px;
+}
+.item div{
+  display: flex;
+  justify-content: space-between;
+}
+.item div > h3 {
+  margin-bottom: 15px;
+}
+.item div > p {
+  font-weight: 550;
+  font-size: 1.2em;
+  color: var(--destaque);
+}
+
+.formacao-container {
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column;
+}
+.formacao-item {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-left: 5px solid var(--destaque-inverso);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.formacao-item:hover {
+  transition: border-left .5s;
+  border-left: 30px solid var(--destaque);
+  
+}
+.data-formacao {
+  font-size: .9em;
+  font-weight: 600;
+}
+.titulo-formacao {
+  color: var(--destaque-inverso);
+}
+#projetos {
+  padding: 20px;
+  margin-bottom: 20px;
 }
