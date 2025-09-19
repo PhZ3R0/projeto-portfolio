@@ -7,6 +7,10 @@
   --destaque-inverso
   --fundo-card
 */
+
+
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -195,4 +199,22 @@ margin: 20px;
   padding-bottom: 10px;
   border-radius: 20px;
   border-left: 5px solid var(--destaque-inverso);
+  cursor: pointer;
+  transition: .7s;
+}
+.projetos-item:hover {
+  border-left: 15px solid var(--destaque);
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: 300px 70vw;
+  }
+  section#ficha {
+    grid-column: 1 / 2;
+    position: sticky;
+    height: fit-content;
+    top: 65px;
+  }
+  .projetos-item 
 }
