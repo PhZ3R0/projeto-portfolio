@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,92 +9,101 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <script src="https://kit.fontawesome.com/fb4e74f99e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a class="link" href="#detalhes"><i class="fa-solid fa-house"></i></a></li>
+                <li><a class="link" href="#skills"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a class="link" href="#formacao"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a class="link" href="#projetos"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a class="link" href="" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="ficha">
+        <section id="ficha" class="ficha">
             <img src="1656383051408.jpeg" alt="ustavo Guanabara" class="foto">
             <h1>Pablo Henrique</h1>
-            <p>Profissional em início de carreira com sólida base em lógica de programação e conhecimento prático em linguagens como HTML, CSS, JavaScript e Python. Inglês avançado (nível C2). Proativo, autodidata e em constante aprendizado.
-            </p>    
+            <p>Profissional em início de carreira com sólida base em lógica de programação e conhecimento prático em
+                linguagens como HTML, CSS, JavaScript e Python. Inglês avançado (nível C2). Proativo, autodidata e em
+                constante aprendizado.
+            </p>
             <div id="social">
-                <a href="https://www.linkedin.com/in/pht-pablo-henrique/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/PhZ3R0" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pht-pablo-henrique/" target="_blank" rel="nofollow"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/PhZ3R0" target="_blank" rel="nofollow"><i
+                        class="fa-brands fa-github"></i></a>
                 <!-- <a href="" target="_blank" rel="nofollow"><i class="fa-brands fa-youtube"></i></a> -->
                 <!-- <a href="" target="_blank" rel="nofollow"><i class="fa-brands fa-instagram"></i></a> -->
                 <!-- <a href="" target="_blank" rel="nofollow"><i class="fa-solid fa-globe"></i></a> -->
             </div>
 
-        </section>    
+        </section>
         <section id="detalhes">
             <section id="video">
                 <h2> <i class="fa-solid fa-handshake"></i> Deixe-me apresentar</h2>
-                <div id="videocontainer"><iframe width="100%" height="315" src="https://www.youtube.com/embed/VdWfSfWA_BQ?si=G8G0sgcCDnvJZsWx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div id="videocontainer"><iframe width="100%" height="315"
+                        src="https://www.youtube.com/embed/VdWfSfWA_BQ?si=G8G0sgcCDnvJZsWx" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
             </section>
             <section id="skills">
                 <h2> <i class="fa-solid fa-brain"></i> Minhas Skills</h2>
                 <div id="progresso-container">
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3>&lt;/&gt; HTML5</h3>
                             <p>70%</p>
                         </div>
                         <div class="barra" style="width: 70%;"></div>
                     </div>
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3>&lt;/&gt; CSS3</h3>
                             <p>70%</p>
                         </div>
                         <div class="barra" style="width: 70%;"></div>
                     </div>
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3>&lt;/&gt; JavaScript</h3>
                             <p>10%</p>
                         </div>
                         <div class="barra" style="width: 10%;"></div>
                     </div>
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3>&lt;/&gt; PHP</h3>
                             <p>0%</p>
                         </div>
                         <div class="barra" style="width: 0%;"></div>
                     </div>
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3><i class="fa-solid fa-person-rays" aria-hidden="true"></i> Comunicação</h3>
                             <p>100%</p>
                         </div>
                         <div class="barra" style="width: 100%;"></div>
                     </div>
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3><i class="fa-solid fa-person-rays" aria-hidden="true"></i> Trabalho em equipe</h3>
                             <p>50%</p>
                         </div>
                         <div class="barra" style="width: 50%;"></div>
                     </div>
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3><i class="fa-solid fa-person-rays" aria-hidden="true"></i> Adaptabilidade</h3>
                             <p>90%</p>
                         </div>
                         <div class="barra" style="width: 90%;"></div>
                     </div>
-                    <div class="item">
+                    <div class="skills-item">
                         <div>
                             <h3><i class="fa-solid fa-person-rays" aria-hidden="true"></i> Liderança</h3>
                             <p>60%</p>
@@ -118,18 +128,66 @@
                         <img src="imagens/projeto-06-album.jpg" alt="">
                         <p class="projeto-data">2025</p>
                         <h3 class="projeto-titulo">Projeto Album de Fotos</h3>
-                        <p class="projeto-descricao">Projeto construido para treinar conteudos flexiveis usando CSS FlexBox para mostrar um álbum de fotos.</p>
+                        <p class="projeto-descricao">Projeto construido para treinar conteudos flexiveis usando CSS
+                            FlexBox para mostrar um álbum de fotos.</p>
                         <details>
                             <summary>
                                 Saiba Mais
                             </summary>
                         </details>
                     </div>
-                        <div class="projetos-item">
+                    <div class="projetos-item">
                         <img src="imagens/projeto-05-login.jpg" alt="">
                         <p class="projeto-data">2025</p>
                         <h3 class="projeto-titulo">Projeto Login</h3>
-                        <p class="projeto-descricao">Projeto construído para treinar responsividade e formulários em uma das telas mais populares em sistemas</p>
+                        <p class="projeto-descricao">Projeto construído para treinar responsividade e formulários em uma
+                            das telas mais populares em sistemas</p>
+                        <details>
+                            <summary>
+                                Saiba Mais
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="projetos-item">
+                        <img src="imagens/projeto-04-links.jpg" alt="">
+                        <p class="projeto-data">2025</p>
+                        <h3 class="projeto-titulo">Projeto Redes Sociais</h3>
+                        <p class="projeto-descricao">Projeto construído para treinar responsividade e múltiplos media
+                            queries e divulgar as minhas principais redes sociais.</p>
+                        <details>
+                            <summary>
+                                Saiba Mais
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="projetos-item">
+                        <img src="imagens/projeto-03-android.jpg" alt="">
+                        <p class="projeto-data">2025</p>
+                        <h3 class="projeto-titulo">Projeto Android</h3>
+                        <p class="projeto-descricao">Projeto construído para treinar conteúdos e imagens dinâmicas com a
+                            Historia do sistema Android.</p>
+                        <details>
+                            <summary>
+                                Saiba Mais
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="projetos-item">
+                        <img src="imagens/projeto-02-cordel.jpg" alt="">
+                        <p class="projeto-data">2025</p>
+                        <h3 class="projeto-titulo">Projeto Cordel</h3>
+                        <p class="projeto-descricao">Projeto construído para treinar efeitos parallax em imagens e a apresentação condeúdo em diversos tamanhos de tela.</p>
+                        <details>
+                            <summary>
+                                Saiba Mais
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="projetos-item">
+                        <img src="imagens/projeto-01-videos.jpg" alt="">
+                        <p class="projeto-data">2025</p>
+                        <h3 class="projeto-titulo">Projeto Vídeos </h3>
+                        <p class="projeto-descricao">Projeto construído para treinar a inserção de vídeos em nosso site, além da navegação entre páginas.</p>
                         <details>
                             <summary>
                                 Saiba Mais
@@ -138,12 +196,13 @@
                     </div>
                 </div>
             </section>
-        </section >
+        </section>
     </main>
     <footer>
-        
+        <p>Portifolio desenvolvido por Henrique no Curso em vídeo em 2025.</p>
     </footer>
 
     <script src="scripts/script.js"></script>
 </body>
+
 </html>
