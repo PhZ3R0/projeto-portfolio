@@ -1,3 +1,5 @@
+
+
 const botao = document.getElementById('botao-tema');
 const body = document.body;
 
@@ -39,3 +41,30 @@ navLinks.forEach(link => {
     }
   });
 });
+
+// Função de abrir pasta de projetos
+let folder = document.getElementById('projetos-folder')
+folder.addEventListener('click', function () {
+let item = document.getElementsByClassName('projetos-item')
+  if (folder.innerHTML == '<span class="material-symbols-outlined">folder_open</span>') {
+    folder.innerHTML = '<span class="material-symbols-outlined">folder</span>'
+    for (i = 0;i < item.length;i++) {
+      item[i].style.opacity = '0'
+      item[i].style.maxHeight = '0px'
+      item[i].style.overflow = 'hidden'
+      
+    }
+    
+  } else {
+    folder.innerHTML = '<span class="material-symbols-outlined">folder_open</span>'
+    for (i = 0;i < item.length;i++) {
+      item[i].style.opacity = '1'
+      item[i].style.maxHeight = '2300px'
+      item[i].style.overflow = 'auto'
+      
+    }
+
+  }
+})
+
+
