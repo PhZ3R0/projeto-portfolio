@@ -46,8 +46,8 @@ navLinks.forEach(link => {
 let folder = document.getElementById('projetos-folder')
 folder.addEventListener('click', function () {
 let item = document.getElementsByClassName('projetos-item')
-  if (folder.innerHTML == '<span class="material-symbols-outlined">folder_open</span>') {
-    folder.innerHTML = '<span class="material-symbols-outlined">folder</span>'
+  if (folder.innerHTML == '<p> HTML5 e CSS3</p> <span class="material-symbols-outlined">folder_open</span>') {
+    folder.innerHTML = '<p> HTML5 e CSS3</p> <span class="material-symbols-outlined">folder</span>'
     for (i = 0;i < item.length;i++) {
       item[i].style.opacity = '0'
       item[i].style.maxHeight = '0px'
@@ -56,7 +56,7 @@ let item = document.getElementsByClassName('projetos-item')
     }
     
   } else {
-    folder.innerHTML = '<span class="material-symbols-outlined">folder_open</span>'
+    folder.innerHTML = '<p> HTML5 e CSS3</p> <span class="material-symbols-outlined">folder_open</span>'
     for (i = 0;i < item.length;i++) {
       item[i].style.opacity = '1'
       item[i].style.maxHeight = '2300px'
