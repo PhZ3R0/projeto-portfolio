@@ -232,7 +232,8 @@ div#progresso-container {
   border-radius: 20px;
   border-left: 5px solid var(--destaque-inverso);
   cursor: pointer;
-  transition: 0.7s;
+  transition: opacity 2s ease-in-out;
+  transition: max-height 2s ease-in-out;
   text-align: center;
 
   /* configuração para dropdown */
