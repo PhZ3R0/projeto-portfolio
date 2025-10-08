@@ -148,26 +148,22 @@ div#progresso-container {
   display: grid;
   
 }
-div.barra {
-  width: 100%;
-  height: 6px;
-  border-radius: 20px;
-  background-color: var(--destaque-inverso);
+#skills-list {
+display: grid;
+grid-template-columns: auto auto;
 }
-.skills-item {
-margin: 20px;
+.list {
+  list-style-type: none;
 }
-.skills-item div{
-  display: flex;
-  justify-content: space-between;
+.list > li {
+  padding: 10px;
+  width: 400px;
 }
-.skills-item div > h3 {
-  margin-bottom: 15px;
+.list > li > label {
+  float: right;
 }
-.skills-item div > p {
-  font-weight: 550;
-  font-size: 1.2em;
-  color: var(--destaque);
+.prgbarr {
+  height: 20px;
 }
 #formacao {
   padding-top: 50px;
